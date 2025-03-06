@@ -5,7 +5,7 @@ import httpx
 from dotenv import load_dotenv
 
 # 创建服务器
-server = FastMCP("we-search-server")
+server = FastMCP("web-search-server")
 
 # 加载环境变量
 load_dotenv()
